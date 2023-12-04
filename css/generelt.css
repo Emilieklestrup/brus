@@ -1,3 +1,21 @@
+@font-face {
+  font-family: pavanam;
+  src: url(../fonts/pavanam-regular-webfont.woff2);
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+nav {
+  font-family: pavanam;
+}
+
+.grid_1-1-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
 .nav_1 {
   display: grid;
   grid-template-columns: 1fr 2fr;
@@ -20,4 +38,19 @@ main {
   max-width: 1400px;
   margin-left: 10%;
   margin-right: 10%;
+}
+
+footer {
+  background-color: rgba(73, 86, 48, 0.44);
+  color: rgba(71, 83, 47, 1);
+}
+
+.info {
+  margin-left: 20%;
+}
+.tider {
+  margin-left: 40%;
+}
+.medier {
+  margin-left: 30%;
 }
