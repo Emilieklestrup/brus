@@ -1,0 +1,9 @@
+.nav_1 {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+nav a {
+  padding: 4em;
+  margin: 0 50px;
+  text-decoration: none;
+}
