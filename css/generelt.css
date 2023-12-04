@@ -1,9 +1,23 @@
 .nav_1 {
   display: grid;
   grid-template-columns: 1fr 2fr;
+  border-bottom: 1px solid black;
 }
+
 nav a {
   padding: 4em;
   margin: 0 50px;
   text-decoration: none;
+  color: black;
+}
+
+nav {
+  text-align: right;
+  margin-top: 30px;
+}
+
+main {
+  max-width: 1400px;
+  margin-left: 10%;
+  margin-right: 10%;
 }
