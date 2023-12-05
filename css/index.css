@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Container til at positionere tekst og billede relativt */
+.forside-container {
+  position: relative;
+}
+
+/* Stil for overskrift */
+h1 {
+  position: absolute;
+  top: 10%; /* Placer overskriften i midten af containeren vertikalt */
+  left: 50%; /* Placer overskriften i midten af containeren horisontalt */
+  transform: translate(
+    -50%,
+    -50%
+  ); /* Juster positionen for at centrere korrekt */
+  color: white; /* Ændr farven efter behov */
+  text-align: center;
+}
+
+/* Stil for billedet */
+.forside1 {
+  width: 100%; /* Gør billedet 100% bredt af containeren */
+  height: auto; /* Oprethold billedets aspektratio */
+  display: block; /* Fjern eventuelle ekstra mellemrum under billedet */
+}
