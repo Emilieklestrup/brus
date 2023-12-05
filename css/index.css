@@ -11,7 +11,7 @@ body {
 /* Stil for overskrift */
 h4 {
   position: absolute;
-  top: -25%; /* Placer overskriften i midten af containeren vertikalt */
+  top: -20%; /* Placer overskriften i midten af containeren vertikalt */
   left: 50%; /* Placer overskriften i midten af containeren horisontalt */
   transform: translate(
     -50%,
@@ -46,12 +46,16 @@ h4 {
 .grid_1-1 {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  height: 380px;
+  margin-bottom: 10%;
 }
 
-.mad-forside {
-  max-width: 100%;
+.mad-forside,
+.ol-forside {
+  display: flex;
+  justify-content: center;
 }
 .foodtext {
-  margin: 20px;
-  font-size: ;
+  margin: 40px;
+  line-height: 2;
 }
