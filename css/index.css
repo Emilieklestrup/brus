@@ -9,9 +9,9 @@ body {
 }
 
 /* Stil for overskrift */
-h1 {
+h4 {
   position: absolute;
-  top: 10%; /* Placer overskriften i midten af containeren vertikalt */
+  top: -25%; /* Placer overskriften i midten af containeren vertikalt */
   left: 50%; /* Placer overskriften i midten af containeren horisontalt */
   transform: translate(
     -50%,
@@ -26,4 +26,19 @@ h1 {
   width: 100%; /* Gør billedet 100% bredt af containeren */
   height: auto; /* Oprethold billedets aspektratio */
   display: block; /* Fjern eventuelle ekstra mellemrum under billedet */
+  align-items: center;
+}
+
+.link-about {
+  display: grid;
+  place-items: center;
+  padding: 5%;
+}
+.knap-about {
+  display: inline-block;
+  color: white;
+  font-size: 25px;
+  padding: 6px 45px;
+  background-color: rgba(175, 181, 164, 1);
+  text-decoration: none;
 }
