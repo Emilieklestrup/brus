@@ -16,6 +16,18 @@ nav {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
+
+.grid_1-8 {
+  display: grid;
+  grid-template-columns: 1fr 8fr;
+}
+
+.grid_1-1-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
+}
+
 .nav_1 {
   display: grid;
   grid-template-columns: 1fr 2fr;
@@ -43,14 +55,73 @@ main {
 footer {
   background-color: rgba(73, 86, 48, 0.44);
   color: rgba(71, 83, 47, 1);
+  padding: 2%;
 }
 
 .info {
+  margin-left: 5%;
+}
+
+.tider {
   margin-left: 20%;
 }
-.tider {
-  margin-left: 40%;
-}
+
 .medier {
   margin-left: 30%;
+}
+
+p {
+  margin: 0;
+}
+
+h3 {
+  margin: 2%;
+}
+
+
+/* ikoner */
+
+.location {
+  max-width: 55%;
+  justify-content: center;
+  position: relative;
+  top: 15%;
+  left: 24%;
+}
+
+.telephone {
+  max-width: 60%;
+  justify-content: center;
+  position: relative;
+  top: 12%;
+  left: 24%;
+}
+
+.mail {
+  max-width: 60%;
+  justify-content: center;
+  position: relative;
+  top: 19%;
+  left: 24%;
+}
+
+.time {
+  max-width: 67%;
+  justify-content: center;
+  position: relative;
+  top: 4%;
+  left: 24%;
+}
+
+
+.time_t {
+  position: relative;
+  left: 13.5%;
+  margin-bottom: 2%;
+}
+
+.icons_t {
+  position: relative;
+  left: 13%;
+  margin-bottom: 5%;
 }
