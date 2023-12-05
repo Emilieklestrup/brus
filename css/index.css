@@ -29,16 +29,29 @@ h4 {
   align-items: center;
 }
 
-.link-about {
+.link-knap {
   display: grid;
   place-items: center;
   padding: 5%;
 }
-.knap-about {
+.knap {
   display: inline-block;
   color: white;
   font-size: 25px;
   padding: 6px 45px;
   background-color: rgba(175, 181, 164, 1);
   text-decoration: none;
+}
+
+.grid_1-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.mad-forside {
+  max-width: 100%;
+}
+.foodtext {
+  margin: 20px;
+  font-size: ;
 }

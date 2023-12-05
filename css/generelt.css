@@ -15,6 +15,9 @@ nav {
 h4 {
   font-size: 180px;
 }
+.footer-h3 {
+  font-size: 20px;
+}
 .grid_1-1-1 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -116,12 +119,14 @@ h3 {
 
 .time_t {
   position: relative;
+  font-size: 15px;
   left: 13.5%;
   margin-bottom: 2%;
 }
 
 .icons_t {
   position: relative;
+  font-size: 15px;
   left: 13%;
   margin-bottom: 5%;
 }
