@@ -11,3 +11,38 @@
   line-height: 2;
   margin-bottom: 5%;
 }
+.grid_1-3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.ol-container {
+  position: relative;
+  line-height: 6;
+}
+
+/* Stil for overskrift */
+.ol1 {
+  position: absolute;
+  top: 0%; /* Placer overskriften i midten af containeren vertikalt */
+  left: 0%;
+  right: 50%; /* Placer overskriften i midten af containeren horisontalt */
+  color: white; /* Ændr farven efter behov */
+  padding: 3%;
+}
+
+.ol2 {
+  position: absolute;
+  top: 0%; /* Placer overskriften i midten af containeren vertikalt */
+  left: 50%; /* Placer overskriften i midten af containeren horisontalt */
+  color: white; /* Ændr farven efter behov */
+  padding: 3%;
+}
+
+/* Stil for billedet */
+.backgound {
+  width: 100%; /* Gør billedet 100% bredt af containeren */
+  height: auto; /* Oprethold billedets aspektratio */
+  display: block; /* Fjern eventuelle ekstra mellemrum under billedet */
+  align-items: center;
+}
