@@ -41,6 +41,7 @@ h4 {
 .grid_1-1 {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  flex-direction: row;
   height: 380px;
   margin-bottom: 10%;
 }
@@ -52,5 +53,5 @@ h4 {
 }
 .foodtext {
   margin: 40px;
-  line-height: 2;
+  line-height: 3;
 }

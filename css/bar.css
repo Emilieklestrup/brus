@@ -18,7 +18,8 @@
 
 .ol-container {
   position: relative;
-  line-height: 6;
+  line-height: 5;
+  margin-bottom: 10%;
 }
 
 /* Stil for overskrift */
@@ -27,16 +28,18 @@
   top: 0%; /* Placer overskriften i midten af containeren vertikalt */
   left: 0%;
   right: 50%; /* Placer overskriften i midten af containeren horisontalt */
-  color: white; /* Ændr farven efter behov */
   padding: 3%;
+  color: black;
+  text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.938);
 }
 
 .ol2 {
   position: absolute;
   top: 0%; /* Placer overskriften i midten af containeren vertikalt */
   left: 50%; /* Placer overskriften i midten af containeren horisontalt */
-  color: white; /* Ændr farven efter behov */
   padding: 3%;
+  color: black;
+  text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.938);
 }
 
 /* Stil for billedet */
