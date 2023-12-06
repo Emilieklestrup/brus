@@ -1,0 +1,13 @@
+.drinks {
+  text-align: center;
+}
+.grid_1-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  line-height: 3.5;
+  margin-bottom: 10%;
+}
+.vin {
+  line-height: 2;
+  margin-bottom: 5%;
+}
