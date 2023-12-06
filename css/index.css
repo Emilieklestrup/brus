@@ -1,5 +1,5 @@
 /* Container til at positionere tekst og billede relativt */
-.forside-container {
+.grid_1-1 {
   position: relative;
 }
 
@@ -17,17 +17,26 @@ h4 {
 }
 
 /* Stil for billedet */
-.forside1 {
-  width: 100%; /* Gør billedet 100% bredt af containeren */
-  height: auto; /* Oprethold billedets aspektratio */
-  display: block; /* Fjern eventuelle ekstra mellemrum under billedet */
-  align-items: center;
+.madbillede,
+.olbillede {
+  display: block;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10%;
+  height: auto;
 }
-
+.olbillede {
+  grid-area: image;
+}
+.foodtext2 {
+  grid-area: text;
+}
 .link-knap {
   display: grid;
   place-items: center;
   padding: 5%;
+  margin-bottom: 20%;
 }
 .knap {
   display: inline-block;
@@ -38,26 +47,21 @@ h4 {
   text-decoration: none;
 }
 
-.grid_1-1 {
+.grid_111 {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  flex-direction: row;
-  height: 380px;
-  margin-bottom: 10%;
+  grid-template-columns: 1fr 1fr; /* Del containeren i to kolonner med lige bredde */
 }
 
-.mad-forside,
-.ol-forside {
-  display: flex;
-  justify-content: center;
-}
-.foodtext {
-  margin: 40px;
-  line-height: 3;
+.grid_1111,
+.grid_111 {
+  width: 100%; /* Sørg for, at indholdet i begge sektioner fylder 100% af deres container */
+  box-sizing: border-box; /* Inkluder padding og grænser i bredden */
 }
 
-* {
-  box-sizing: border-box;
+.foodtext,
+.foodtext2 {
+  margin: 8%;
+  line-height: 2.5;
 }
 
 .mySlides {
@@ -124,8 +128,29 @@ img {
 }
 
 /* On smaller screens, decrease text size */
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 600px) {
   .text {
     font-size: 100px;
+  }
+  .grid_111 {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "image"
+      "text"; /* Skift til stakket layout */
+  }
+  .knap {
+    display: inline-block;
+    color: white;
+    font-size: 20px;
+    padding: 5px 25px;
+    background-color: rgba(175, 181, 164, 1);
+    text-decoration: none;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .grid_111 {
+    grid-template-columns: 1fr 1fr; /* Gendanner to kolonner på større skærme */
+    grid-template-areas: "text image"; /* Ændrer rækkefølgen af områderne for større skærme */
   }
 }
