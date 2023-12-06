@@ -95,7 +95,15 @@ img {
   display: inline-block;
   transition: background-color 0.6s ease;
 }
-
+.text {
+  font-family: pavanam;
+  color: #ffffff;
+  font-size: 200px;
+  position: absolute;
+  top: 5px;
+  width: 100%;
+  text-align: center;
+}
 .active {
   background-color: #717171;
 }
@@ -103,7 +111,7 @@ img {
 /* Fading animation */
 .fade {
   animation-name: fade;
-  animation-duration: 1.5s;
+  animation-duration: 2s;
 }
 
 @keyframes fade {
@@ -116,8 +124,8 @@ img {
 }
 
 /* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
+@media only screen and (max-width: 700px) {
   .text {
-    font-size: 11px;
+    font-size: 100px;
   }
 }
