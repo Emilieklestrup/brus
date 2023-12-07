@@ -1,0 +1,83 @@
+.menu {
+text-align: center;
+color: rgba(71, 83, 47, 1);
+font-size: 3.5rem;
+}
+
+.grid_1-1 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* To kolonner med lige bredde */
+        gap: 10px; /* Afstand mellem billeder */
+    }
+
+/* Container needed to position the button. Adjust the width as needed */
+.food {
+    position: relative;
+    padding-top: 5%;
+    padding-bottom: 10%;
+    max-width: 100%; /* Begræns billedets bredde til containerens bredde */
+    height: auto; /* Bevar billedets højde i forhold til bredden */
+    display: block;
+  }
+  
+  /* Make the image responsive */
+  .food img {
+    width: 50%;
+    height: auto;
+  }
+  
+  /* Style the button and place it in the middle of the container/image */
+  .food .btn {
+    position: absolute;
+    top: 45%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: white;
+    color: rgba(73, 86, 48, 0.44);
+    font-size: 90px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    opacity: 25%;
+  }
+  
+  .food .btn:hover {
+    background-color: whitesmoke;
+  }
+
+  /* Container needed to position the button. Adjust the width as needed */
+.bar {
+    position: relative;
+    padding-top: 5%;
+    padding-bottom: 10%;
+    max-width: 100%; /* Begræns billedets bredde til containerens bredde */
+    height: auto; /* Bevar billedets højde i forhold til bredden */
+    display: block;
+  }
+  
+  /* Make the image responsive */
+  .bar img {
+    width: 50%;
+    height: auto;
+  }
+  
+  /* Style the button and place it in the middle of the container/image */
+  .bar .btn {
+    position: absolute;
+    top: 45%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: white;
+    color: rgba(73, 86, 48, 0.44);
+    font-size: 90px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    opacity: 25%;
+  }
+  
+  .bar .btn:hover {
+    background-color: whitesmoke;
+  }
