@@ -1,0 +1,74 @@
+.foodbar {
+    text-align: center;
+    color: rgba(71, 83, 47, 1);
+    font-size: 3.5rem;
+}
+
+.V {
+    background-color: rgba(73, 86, 48, 0.44);
+    padding: 1.5%;
+    color: white;
+    text-align: center;
+    margin-left: 30%;
+}
+
+.Vegan {
+    background-color: rgba(73, 86, 48, 0.44);
+    padding: 1.5%;
+    color: white;
+    text-align: center;
+    margin-right: 30%;
+}
+
+.grid_1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.food_t {
+    text-align: left;
+    margin: 0;
+    margin-top: 3%;
+    background-color: white;
+    color: black;
+}
+
+.price_t {
+    background-color: white;
+    color: black;
+    text-align: center;
+    position: relative;
+    left: 12.5%;
+}
+
+.grid_2-1 {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.grid_3-1 {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.overskrift {
+    font-size: 1.5rem;
+    margin-top: 2%;
+}
+
+.farve_boks {
+    background-color: rgba(73, 86, 48, 0.44);
+    text-align: center;
+    color: white;
+    padding: 1%;
+}
+
+.price {
+    position: relative;
+    top: 27%;
+}
+
+.food_beskriv {
+    position: relative;
+    left: 3%;
+}
