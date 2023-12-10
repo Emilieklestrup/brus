@@ -10,7 +10,7 @@ font-size: 3.5rem;
         gap: 10px; /* Afstand mellem billeder */
     }
 
-/* Container needed to position the button. Adjust the width as needed */
+
 .food {
     position: relative;
     padding-top: 5%;
@@ -20,33 +20,33 @@ font-size: 3.5rem;
     display: block;
   }
   
-  /* Make the image responsive */
+  
   .food img {
-    width: 50%;
+    width: 70%;
     height: auto;
   }
   
-  /* Style the button and place it in the middle of the container/image */
+  
   .food .btn {
     position: absolute;
     top: 45%;
-    left: 25%;
+    left: 35%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    background-color: white;
-    color: rgba(73, 86, 48, 0.44);
+    background-color: grey;
+    color: white;
     font-size: 90px;
-    padding: 12px 24px;
+    padding: 6px 12px;
     border: none;
     cursor: pointer;
-    opacity: 25%;
+    opacity: 45%;
   }
   
   .food .btn:hover {
     background-color: whitesmoke;
   }
 
-  /* Container needed to position the button. Adjust the width as needed */
+  
 .bar {
     position: relative;
     padding-top: 5%;
@@ -58,7 +58,7 @@ font-size: 3.5rem;
   
   /* Make the image responsive */
   .bar img {
-    width: 50%;
+    width: 70%;
     height: auto;
   }
   
@@ -66,18 +66,18 @@ font-size: 3.5rem;
   .bar .btn {
     position: absolute;
     top: 45%;
-    left: 25%;
+    left: 35%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    background-color: white;
-    color: rgba(73, 86, 48, 0.44);
+    background-color: grey;
+    color: white;
     font-size: 90px;
     padding: 12px 24px;
     border: none;
     cursor: pointer;
-    opacity: 25%;
+    opacity: 45%;
   }
   
   .bar .btn:hover {
-    background-color: whitesmoke;
+    background-color: whitesmoke
   }
