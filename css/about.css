@@ -1,94 +1,96 @@
 .about_o {
-  text-align: center;
-  color: rgba(71, 83, 47, 1);
-  font-size: 3.5rem;
+    text-align: center;
+    color: rgba(71, 83, 47, 1);
+    font-size: 3.5rem;
 }
 
 .grid_1-1 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 .about_t {
-  margin-top: 15%;
-  top: 40%;
-  line-height: 2.5;
+    margin-top: 15%;
+    top: 40%;
+    line-height: 2.5;
 }
 
 .indretning {
-  position: relative;
-  left: 17%;
+    position: relative;
+    left: 17%;
 }
 
 .tekst {
-  margin-top: 6%;
-  margin-bottom: 6%;
-  line-height: 2.5;
+    margin-top: 6%;
+    margin-bottom: 6%;
+    line-height: 2.5;
 }
 
 .BRUS_glas {
-  position: relative;
-  left: 20%;
-  margin-bottom: 10%;
+    position: relative;
+    left: 20%;
+    margin-bottom: 10%;
 }
 
 .tekst_1 {
-  margin-left: 25%;
-  top: 23%;
-  line-height: 2.5;
+    /* margin-left: 25%; */
+    position: relative;
+    top: 18%;
+    line-height: 2.5;
 }
 
 .tekst_2 {
-  line-height: 2.5;
-  margin-bottom: 6%;
+    line-height: 2.5;
+    margin-bottom: 6%;
 }
 
 .indretning {
-  max-width: 60%;
+    max-width: 60%;
 }
+
 .html_video1 {
-  max-width: 100%;
-  margin-bottom: 20%;
+    max-width: 100%;
+    margin-bottom: 20%;
 }
 
 @media only screen and (max-width: 600px) {
-  .indretning {
-    max-width: 50%;
-    position: relative;
-    left: 25%;
-  }
+    .indretning {
+        max-width: 50%;
+        position: relative;
+        left: 25%;
+    }
 
-  .grid_1-1 {
-    display: grid;
-    grid-template-columns: 1fr;
-  }
+    .grid_1-1 {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
 
-  .tekst_1 {
-    margin: 0;
-  }
+    .tekst_1 {
+        margin: 0;
+    }
 
-  .BRUS_glas {
-    position: relative;
-    left: 5%;
-  }
+    .BRUS_glas {
+        position: relative;
+        left: 5%;
+    }
 
-  .about_t {
-    font-size: 18px;
-  }
+    .about_t {
+        font-size: 18px;
+    }
 
-  .tekst {
-    font-size: 18px;
-  }
+    .tekst {
+        font-size: 18px;
+    }
 
-  .tekst_1 {
-    font-size: 18px;
-  }
+    .tekst_1 {
+        font-size: 18px;
+    }
 
-  .tekst_2 {
-    font-size: 18px;
-  }
+    .tekst_2 {
+        font-size: 18px;
+    }
 
-  .h_2 {
-    font-size: 30px;
-  }
+    .h_2 {
+        font-size: 30px;
+    }
 }
