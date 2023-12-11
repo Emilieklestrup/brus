@@ -90,20 +90,43 @@
   }
 
   .bar .btn {
-    display: inline-block;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: rgba(128, 128, 128, 0.8);
     color: white;
-    font-size: 20px;
-    padding: 5px 25px;
-    background-color: grey;
-    text-decoration: none;
+    font-size: 90px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
   }
 
   .food .btn {
-    display: inline-block;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: rgba(128, 128, 128, 0.8);
     color: white;
-    font-size: 20px;
-    padding: 5px 25px;
-    background-color: grey;
-    text-decoration: none;
+    font-size: 90px;
+    padding: 6px 12px;
+    border: none;
+    cursor: pointer;
   }
+
+  .grid_1-1 {
+    grid-template-columns: 1fr;
+    gap: 0%;
+  }
+
+  .bar img {
+    margin-bottom: 40%;
+  }
+
+}
+@media screen and (min-width: 600px) {
+  
 }
