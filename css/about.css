@@ -10,6 +10,7 @@
 }
 
 .about_t {
+  margin-top: 15%;
   top: 40%;
   line-height: 2.5;
 }
@@ -40,4 +41,12 @@
 .tekst_2 {
   line-height: 2.5;
   margin-bottom: 6%;
+}
+.indretning {
+  max-width: 60%;
+}
+@media only screen and (max-width: 600px) {
+  .indretning {
+    max-width: 100%;
+  }
 }
