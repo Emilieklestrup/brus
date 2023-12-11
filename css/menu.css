@@ -1,92 +1,101 @@
 .menu {
-text-align: center;
-color: rgba(71, 83, 47, 1);
-font-size: 3.5rem;
+  text-align: center;
+  color: rgba(71, 83, 47, 1);
+  font-size: 3.5rem;
 }
 
 .grid_1-1 {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr); /* To kolonner med lige bredde */
-        gap: 10px; /* Afstand mellem billeder */
-    }
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* To kolonner med lige bredde */
+  gap: 15%;
+  /* Afstand mellem billeder */
+}
 
 
 .food {
-    position: relative;
-    padding-top: 5%;
-    padding-bottom: 10%;
-    max-width: 100%; /* Begræns billedets bredde til containerens bredde */
-    height: auto; /* Bevar billedets højde i forhold til bredden */
-    display: block;
-  }
-  
-  
-  .food img {
-    width: 70%;
-    height: auto;
-  }
-  
-  
-  .food .btn {
-    position: absolute;
-    top: 45%;
-    left: 35%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    background-color: grey;
-    color: white;
-    font-size: 90px;
-    padding: 6px 12px;
-    border: none;
-    cursor: pointer;
-    opacity: 45%;
-  }
-  
-  .food .btn:hover {
-    background-color: whitesmoke;
-  }
+  position: relative;
+  padding-top: 5%;
+  padding-bottom: 10%;
+  max-width: 100%;
+  /* Begræns billedets bredde til containerens bredde */
+  height: auto;
+  /* Bevar billedets højde i forhold til bredden */
+  display: block;
+  position: relative;
+  left: 30%;
+}
 
-  
+
+.food img {
+  width: 70%;
+  height: auto;
+}
+
+
+.food .btn {
+  position: absolute;
+  top: 45%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: grey;
+  color: white;
+  font-size: 90px;
+  padding: 6px 12px;
+  border: none;
+  cursor: pointer;
+  opacity: 45%;
+}
+
+.food .btn:hover {
+  background-color: whitesmoke;
+}
+
+
 .bar {
-    position: relative;
-    padding-top: 5%;
-    padding-bottom: 10%;
-    max-width: 100%; /* Begræns billedets bredde til containerens bredde */
-    height: auto; /* Bevar billedets højde i forhold til bredden */
-    display: block;
-  }
-  
-  /* Make the image responsive */
-  .bar img {
-    width: 70%;
-    height: auto;
-  }
-  
-  /* Style the button and place it in the middle of the container/image */
-  .bar .btn {
-    position: absolute;
-    top: 45%;
-    left: 35%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    background-color: grey;
-    color: white;
-    font-size: 90px;
-    padding: 12px 24px;
-    border: none;
-    cursor: pointer;
-    opacity: 45%;
-  }
-  
-  .bar .btn:hover {
-    background-color: whitesmoke
-  }
+  position: relative;
+  padding-top: 5%;
+  padding-bottom: 10%;
+  max-width: 100%;
+  /* Begræns billedets bredde til containerens bredde */
+  height: auto;
+  /* Bevar billedets højde i forhold til bredden */
+  display: block;
+}
 
-  /* On smaller screens, decrease text size */
+/* Make the image responsive */
+.bar img {
+  width: 70%;
+  height: auto;
+}
+
+/* Style the button and place it in the middle of the container/image */
+.bar .btn {
+  position: absolute;
+  top: 45%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: grey;
+  color: white;
+  font-size: 90px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  opacity: 45%;
+}
+
+.bar .btn:hover {
+  background-color: whitesmoke
+}
+
+/* On smaller screens, decrease text size */
 @media only screen and (max-width: 600px) {
   .text {
     font-size: 100px;
   }
+
   .bar .btn {
     display: inline-block;
     color: white;
@@ -95,6 +104,7 @@ font-size: 3.5rem;
     background-color: grey;
     text-decoration: none;
   }
+
   .food .btn {
     display: inline-block;
     color: white;
@@ -104,9 +114,10 @@ font-size: 3.5rem;
     text-decoration: none;
   }
 
-@media screen and (min-width: 600px) {
-  .grid_1-1 {
-    grid-template-columns: 1fr 1fr; /* Gendanner to kolonner på større skærme */
+  @media screen and (min-width: 600px) {
+    .grid_1-1 {
+      grid-template-columns: 1fr 1fr;
+      /* Gendanner to kolonner på større skærme */
+    }
   }
-}
 }
