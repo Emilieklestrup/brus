@@ -48,6 +48,7 @@
 }
 .html_video1 {
   max-width: 100%;
+  margin-bottom: 20%;
 }
 
 @media only screen and (max-width: 600px) {
