@@ -84,6 +84,9 @@ footer {
   padding: 2%;
 }
 
+.facebook img {
+  max-width: 50%;
+}
 .info {
   margin-left: 5%;
 }
