@@ -59,8 +59,9 @@ h4 {
 
 .foodtext,
 .foodtext2 {
-  margin: 8%;
+  margin: 10%;
   line-height: 2.5;
+  font-size: 25px;
 }
 
 .mySlides {
