@@ -12,7 +12,6 @@
   /* Afstand mellem billeder */
 }
 
-
 .food {
   position: relative;
   padding-top: 5%;
@@ -23,20 +22,17 @@
   /* Bevar billedets højde i forhold til bredden */
   display: block;
   position: relative;
-  left: 30%;
 }
-
 
 .food img {
-  width: 70%;
+  width: 100%;
   height: auto;
 }
-
 
 .food .btn {
   position: absolute;
   top: 45%;
-  left: 35%;
+  left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   background-color: rgba(128, 128, 128, 0.8);
@@ -51,7 +47,6 @@
   background-color: whitesmoke;
 }
 
-
 .bar {
   position: relative;
   padding-top: 5%;
@@ -65,7 +60,7 @@
 
 /* Make the image responsive */
 .bar img {
-  width: 70%;
+  width: 100%;
   height: auto;
 }
 
@@ -73,7 +68,7 @@
 .bar .btn {
   position: absolute;
   top: 45%;
-  left: 35%;
+  left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   background-color: rgba(128, 128, 128, 0.8);
@@ -85,7 +80,7 @@
 }
 
 .bar .btn:hover {
-  background-color: whitesmoke
+  background-color: whitesmoke;
 }
 
 /* On smaller screens, decrease text size */
@@ -110,12 +105,5 @@
     padding: 5px 25px;
     background-color: grey;
     text-decoration: none;
-  }
-
-  @media screen and (min-width: 600px) {
-    .grid_1-1 {
-      grid-template-columns: 1fr 1fr;
-      /* Gendanner to kolonner på større skærme */
-    }
   }
 }
