@@ -125,8 +125,9 @@
   .bar img {
     margin-bottom: 40%;
   }
-
+  .menu {
+    font-size: 40px;
+  }
 }
 @media screen and (min-width: 600px) {
-  
 }
